@@ -23,6 +23,7 @@ while option != 0:
     elif option == 2:
         item = input(ru_local.ITEM)
         del(shopping_basket[item])
+        print(ru_local.DEL)
 
     elif option == 3:
         for item in shopping_basket:
